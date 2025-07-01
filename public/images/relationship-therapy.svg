@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#fef7ff"/>
+  
+  <!-- Heart shape background -->
+  <path d="M200 240 C150 190 100 150 100 100 C100 70 125 50 150 50 C175 50 200 70 200 85 C200 70 225 50 250 50 C275 50 300 70 300 100 C300 150 250 190 200 240 Z" fill="#fce7f3" opacity="0.6"/>
+  
+  <!-- Two figures holding hands -->
+  <g transform="translate(160, 120)">
+    <!-- Figure 1 -->
+    <g>
+      <!-- Head -->
+      <circle cx="25" cy="25" r="12" fill="#be185d"/>
+      <!-- Body -->
+      <ellipse cx="25" cy="50" rx="10" ry="18" fill="#ec4899"/>
+      <!-- Arms -->
+      <ellipse cx="15" cy="42" rx="6" ry="12" fill="#ec4899" transform="rotate(-15 15 42)"/>
+      <ellipse cx="35" cy="42" rx="6" ry="12" fill="#ec4899" transform="rotate(15 35 42)"/>
+      <!-- Legs -->
+      <ellipse cx="20" cy="72" rx="5" ry="12" fill="#ec4899"/>
+      <ellipse cx="30" cy="72" rx="5" ry="12" fill="#ec4899"/>
+    </g>
+    
+    <!-- Figure 2 -->
+    <g transform="translate(35, 0)">
+      <!-- Head -->
+      <circle cx="25" cy="25" r="12" fill="#be185d"/>
+      <!-- Body -->
+      <ellipse cx="25" cy="50" rx="10" ry="18" fill="#f472b6"/>
+      <!-- Arms -->
+      <ellipse cx="15" cy="42" rx="6" ry="12" fill="#f472b6" transform="rotate(-15 15 42)"/>
+      <ellipse cx="35" cy="42" rx="6" ry="12" fill="#f472b6" transform="rotate(15 35 42)"/>
+      <!-- Legs -->
+      <ellipse cx="20" cy="72" rx="5" ry="12" fill="#f472b6"/>
+      <ellipse cx="30" cy="72" rx="5" ry="12" fill="#f472b6"/>
+    </g>
+    
+    <!-- Connected hands -->
+    <circle cx="45" cy="42" r="4" fill="#db2777"/>
+  </g>
+  
+  <!-- Communication bubbles -->
+  <g opacity="0.8">
+    <!-- Speech bubble 1 -->
+    <ellipse cx="120" cy="80" rx="20" ry="12" fill="#fbb6ce"/>
+    <path d="M110 87 L105 95 L115 90 Z" fill="#fbb6ce"/>
+    <circle cx="115" cy="78" r="2" fill="#be185d"/>
+    <circle cx="120" cy="78" r="2" fill="#be185d"/>
+    <circle cx="125" cy="78" r="2" fill="#be185d"/>
+    
+    <!-- Speech bubble 2 -->
+    <ellipse cx="280" cy="90" rx="18" ry="10" fill="#f9a8d4"/>
+    <path d="M290 97 L295 103 L285 100 Z" fill="#f9a8d4"/>
+    <rect x="275" y="87" width="10" height="3" rx="1" fill="#be185d"/>
+    <rect x="275" y="91" width="8" height="3" rx="1" fill="#be185d"/>
+  </g>
+  
+  <!-- Hearts floating -->
+  <g opacity="0.7">
+    <path d="M80 120 C75 115 70 112 70 108 C70 105 72 103 75 103 C78 103 80 105 80 107 C80 105 82 103 85 103 C88 103 90 105 90 108 C90 112 85 115 80 120 Z" fill="#f472b6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    
+    <path d="M320 160 C317 157 314 155 314 152 C314 150 315 149 317 149 C319 149 320 150 320 151 C320 150 321 149 323 149 C325 149 326 150 326 152 C326 155 323 157 320 160 Z" fill="#ec4899">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="60" cy="200" r="3" fill="#f8bbd9" opacity="0.6"/>
+  <circle cx="340" cy="180" r="4" fill="#fce7f3" opacity="0.8"/>
+  
+  <!-- Text -->
+  <text x="200" y="250" text-anchor="middle" font-family="Arial" font-size="16" fill="#be185d" font-weight="600">
+    Building Stronger Connections
+  </text>
+</svg>
